@@ -69,6 +69,7 @@ namespace Assignment_6
             this.SpitRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SpitRichTextBox.Location = new System.Drawing.Point(16, 338);
             this.SpitRichTextBox.Name = "SpitRichTextBox";
+            this.SpitRichTextBox.ReadOnly = true;
             this.SpitRichTextBox.Size = new System.Drawing.Size(120, 74);
             this.SpitRichTextBox.TabIndex = 5;
             this.SpitRichTextBox.Text = "";
@@ -79,18 +80,18 @@ namespace Assignment_6
             this.Heightlabel.AutoSize = true;
             this.Heightlabel.Location = new System.Drawing.Point(12, 95);
             this.Heightlabel.Name = "Heightlabel";
-            this.Heightlabel.Size = new System.Drawing.Size(56, 20);
+            this.Heightlabel.Size = new System.Drawing.Size(80, 20);
             this.Heightlabel.TabIndex = 8;
-            this.Heightlabel.Text = "Height";
+            this.Heightlabel.Text = "My Height";
             // 
             // WeightLabel
             // 
             this.WeightLabel.AutoSize = true;
             this.WeightLabel.Location = new System.Drawing.Point(12, 169);
             this.WeightLabel.Name = "WeightLabel";
-            this.WeightLabel.Size = new System.Drawing.Size(59, 20);
+            this.WeightLabel.Size = new System.Drawing.Size(83, 20);
             this.WeightLabel.TabIndex = 9;
-            this.WeightLabel.Text = "Weight";
+            this.WeightLabel.Text = "My Weight";
             // 
             // ImperialradioButton2
             // 
@@ -125,6 +126,7 @@ namespace Assignment_6
             this.CalculateTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CalculateTextBox.Location = new System.Drawing.Point(151, 259);
             this.CalculateTextBox.Name = "CalculateTextBox";
+            this.CalculateTextBox.ReadOnly = true;
             this.CalculateTextBox.Size = new System.Drawing.Size(135, 53);
             this.CalculateTextBox.TabIndex = 12;
             // 
