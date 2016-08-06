@@ -44,9 +44,9 @@ namespace Assignment_6
             // 
             // Calculate
             // 
-            this.Calculate.Location = new System.Drawing.Point(44, 248);
+            this.Calculate.Location = new System.Drawing.Point(16, 248);
             this.Calculate.Name = "Calculate";
-            this.Calculate.Size = new System.Drawing.Size(148, 64);
+            this.Calculate.Size = new System.Drawing.Size(120, 64);
             this.Calculate.TabIndex = 1;
             this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = true;
@@ -55,7 +55,7 @@ namespace Assignment_6
             // MetricradioButton1
             // 
             this.MetricradioButton1.AutoSize = true;
-            this.MetricradioButton1.Location = new System.Drawing.Point(44, 22);
+            this.MetricradioButton1.Location = new System.Drawing.Point(16, 41);
             this.MetricradioButton1.Name = "MetricradioButton1";
             this.MetricradioButton1.Size = new System.Drawing.Size(77, 24);
             this.MetricradioButton1.TabIndex = 3;
@@ -66,9 +66,10 @@ namespace Assignment_6
             // 
             // SpitRichTextBox
             // 
-            this.SpitRichTextBox.Location = new System.Drawing.Point(44, 337);
+            this.SpitRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpitRichTextBox.Location = new System.Drawing.Point(16, 338);
             this.SpitRichTextBox.Name = "SpitRichTextBox";
-            this.SpitRichTextBox.Size = new System.Drawing.Size(175, 74);
+            this.SpitRichTextBox.Size = new System.Drawing.Size(120, 74);
             this.SpitRichTextBox.TabIndex = 5;
             this.SpitRichTextBox.Text = "";
             this.SpitRichTextBox.TextChanged += new System.EventHandler(this.Calculate_Click);
@@ -76,7 +77,7 @@ namespace Assignment_6
             // Heightlabel
             // 
             this.Heightlabel.AutoSize = true;
-            this.Heightlabel.Location = new System.Drawing.Point(65, 95);
+            this.Heightlabel.Location = new System.Drawing.Point(12, 95);
             this.Heightlabel.Name = "Heightlabel";
             this.Heightlabel.Size = new System.Drawing.Size(56, 20);
             this.Heightlabel.TabIndex = 8;
@@ -85,7 +86,7 @@ namespace Assignment_6
             // WeightLabel
             // 
             this.WeightLabel.AutoSize = true;
-            this.WeightLabel.Location = new System.Drawing.Point(70, 169);
+            this.WeightLabel.Location = new System.Drawing.Point(12, 169);
             this.WeightLabel.Name = "WeightLabel";
             this.WeightLabel.Size = new System.Drawing.Size(59, 20);
             this.WeightLabel.TabIndex = 9;
@@ -94,7 +95,7 @@ namespace Assignment_6
             // ImperialradioButton2
             // 
             this.ImperialradioButton2.AutoSize = true;
-            this.ImperialradioButton2.Location = new System.Drawing.Point(307, 22);
+            this.ImperialradioButton2.Location = new System.Drawing.Point(189, 41);
             this.ImperialradioButton2.Name = "ImperialradioButton2";
             this.ImperialradioButton2.Size = new System.Drawing.Size(90, 24);
             this.ImperialradioButton2.TabIndex = 4;
@@ -106,32 +107,32 @@ namespace Assignment_6
             // HeightTextBox
             // 
             this.HeightTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeightTextBox.Location = new System.Drawing.Point(212, 95);
+            this.HeightTextBox.Location = new System.Drawing.Point(148, 95);
             this.HeightTextBox.Name = "HeightTextBox";
-            this.HeightTextBox.Size = new System.Drawing.Size(221, 53);
+            this.HeightTextBox.Size = new System.Drawing.Size(131, 53);
             this.HeightTextBox.TabIndex = 10;
             // 
             // WeightTextBox
             // 
             this.WeightTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeightTextBox.Location = new System.Drawing.Point(212, 169);
+            this.WeightTextBox.Location = new System.Drawing.Point(151, 169);
             this.WeightTextBox.Name = "WeightTextBox";
-            this.WeightTextBox.Size = new System.Drawing.Size(221, 53);
+            this.WeightTextBox.Size = new System.Drawing.Size(128, 53);
             this.WeightTextBox.TabIndex = 11;
             // 
             // CalculateTextBox
             // 
             this.CalculateTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculateTextBox.Location = new System.Drawing.Point(212, 248);
+            this.CalculateTextBox.Location = new System.Drawing.Point(151, 259);
             this.CalculateTextBox.Name = "CalculateTextBox";
-            this.CalculateTextBox.Size = new System.Drawing.Size(221, 53);
+            this.CalculateTextBox.Size = new System.Drawing.Size(135, 53);
             this.CalculateTextBox.TabIndex = 12;
             // 
             // ClearButon
             // 
-            this.ClearButon.Location = new System.Drawing.Point(307, 337);
+            this.ClearButon.Location = new System.Drawing.Point(191, 338);
             this.ClearButon.Name = "ClearButon";
-            this.ClearButon.Size = new System.Drawing.Size(139, 74);
+            this.ClearButon.Size = new System.Drawing.Size(95, 74);
             this.ClearButon.TabIndex = 13;
             this.ClearButon.Text = "Clear";
             this.ClearButon.UseVisualStyleBackColor = true;
@@ -141,7 +142,7 @@ namespace Assignment_6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 446);
+            this.ClientSize = new System.Drawing.Size(298, 424);
             this.Controls.Add(this.ClearButon);
             this.Controls.Add(this.CalculateTextBox);
             this.Controls.Add(this.WeightTextBox);
@@ -152,6 +153,8 @@ namespace Assignment_6
             this.Controls.Add(this.ImperialradioButton2);
             this.Controls.Add(this.MetricradioButton1);
             this.Controls.Add(this.Calculate);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "BmiCalculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMI Calculator";
