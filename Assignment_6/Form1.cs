@@ -13,17 +13,30 @@ namespace Assignment_6
 {
     public partial class BmiCalculator : Form
     {
+        //private variables
         private bool _isMetric;
+        /// <summary>
+        /// constuctor
+        /// </summary>
         public BmiCalculator()
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// check the radio button to metric
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
             MetricradioButton1.Checked = true;
         }
-
+        /// <summary>
+        /// This method looks to see if the radio button was changed
+        /// changes the measurment unit on gui.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton rdo = (RadioButton)sender;
@@ -41,7 +54,11 @@ namespace Assignment_6
                 _isMetric = false;
             }
         }
-
+        /// <summary>
+        /// calculates BMI in Metric and Imperial, has input validation for numbers.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Calculate_Click(object sender, EventArgs e)
         {
             try
@@ -108,7 +125,11 @@ namespace Assignment_6
             
 
         }
-
+        /// <summary>
+        /// Resets the calculator
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ClearButon_Click(object sender, EventArgs e)
         {
             HeightTextBox.Text = "";

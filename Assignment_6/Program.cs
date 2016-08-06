@@ -6,6 +6,12 @@ using System.Windows.Forms;
 
 namespace Assignment_6
 {
+    /// <summary>
+    /// 300435435
+    /// Mohamoud Mohamed
+    /// Assigment 6
+    /// v.1.3 with notes
+    /// </summary>
     static class Program
     {
         /// <summary>
